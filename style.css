@@ -132,7 +132,7 @@
         }
 
         .cta-button.secondary:hover {
-            background-color: rgba(37, 99, 235, 0.1);
+            background-color: white;
         }
 
         /* Hero Section */
@@ -240,7 +240,8 @@
 
         .service-card:hover {
             transform: translateY(-10px);
-            box-shadow: var(--shadow-lg);
+            /* box-shadow: var(--shadow-lg); */
+            background-color: ;
         }
 
         .service-card:hover::before {

@@ -270,7 +270,7 @@
 
         .feature {
             background-color: white;
-            padding: 25px;
+            padding: 29px;
             border-radius: 8px;
             box-shadow: var(--shadow);
             transition: var(--transition);
@@ -289,15 +289,28 @@
         }
 
         .feature h3 {
-            font-size: 1.3rem;
+            font-size: 1.9rem;
             margin-bottom: 10px;
             color: var(--dark);
+        }
+
+        .port {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: var(--dark);
+            font-weight: 900;
         }
 
         .feature p {
             color: var(--dark-gray);
             margin-bottom: 0;
             font-size: 1rem;
+        }
+
+        .feature-port {
+            color: var(--dark-gray);
+            margin-bottom: 22px;
+            font-size: 1.3rem;
         }
 
         .service-image {
